@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rezensionen",
+  "info": {
+    "singularName": "rezension",
+    "pluralName": "rezensionen",
+    "displayName": "Rezension"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Sterne": {
+      "type": "integer",
+      "required": true,
+      "max": 5,
+      "min": 0
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
