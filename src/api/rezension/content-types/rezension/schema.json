@@ -4,7 +4,8 @@
   "info": {
     "singularName": "rezension",
     "pluralName": "rezensionen",
-    "displayName": "Rezension"
+    "displayName": "Rezension",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,17 @@
     "Text": {
       "type": "text",
       "required": true
+    },
+    "Original": {
+      "type": "enumeration",
+      "enum": [
+        "Rumänisch",
+        "Deutsch"
+      ],
+      "required": true
+    },
+    "TextRumaenisch": {
+      "type": "text"
     }
   }
 }
